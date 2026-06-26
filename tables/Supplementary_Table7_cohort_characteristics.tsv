@@ -1,0 +1,4 @@
+Cohort	Accession	n	Platform	Data_type
+Iowa_rectal_cancer	PRJNA1029660	57	Illumina_MiSeq_PE300	16S_V3-V4_FFPE_mucosal
+TCMA_pan-cancer	Dohlman_2022	290	WGS_tumor_tissue	READ41_COAD114_STAD135
+GSE165255	GEO_GSE165255	36	16S_V3-V4_plus_RNAseq	Paired_tumor_microbiome_transcriptomics

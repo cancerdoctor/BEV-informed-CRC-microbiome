@@ -1,0 +1,23 @@
+name: bev-crc-microbiome
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - matplotlib=3.7
+  - seaborn
+  - pip
+  - pip:
+      - lifelines==0.27.*
+      - gseapy==0.10.*
+
+# Note: QIIME2 2024.10 requires a separate environment due to dependency conflicts.
+# Install via:
+#   conda env create -n qiime2-2024.10 --file https://data.qiime2.org/distro/core/qiime2-2024.10-py310-linux-conda.yml
+# 16S processing (code/01_qiime2_16S_processing.sh) should be run within that environment.
